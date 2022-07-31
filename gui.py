@@ -23,7 +23,7 @@ class SayHello(App):
         self.window.add_widget(self.input_label)
 
         #input widget 
-        self.path_input = TextInput(multiline=False, padding_y = (20, 20), size_hint = (1, 0.5))
+        self.path_input = TextInput(multiline=False, padding_y = (15, 15), size_hint = (1, 0.5))
         self.window.add_widget(self.path_input)
 
         #label widget2
@@ -31,7 +31,7 @@ class SayHello(App):
         self.window.add_widget(self.input_label2)
 
         #input widget2
-        self.t_size_input = TextInput(multiline=False, padding_y = (20, 20), size_hint = (1, 0.5))
+        self.t_size_input = TextInput(multiline=False, padding_y = (15, 15), size_hint = (1, 0.5))
         self.window.add_widget(self.t_size_input)
 
         #button widget
