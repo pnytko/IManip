@@ -35,7 +35,7 @@ class SayHello(App):
         self.window.add_widget(self.t_size_input)
 
         #button widget
-        self.button = Button(text = "Procesuj", size_hint = (1, 0.5), bold = True, background_color = '#8C00FF', padding = (20, 20))
+        self.button = Button(text = "Procesuj", size_hint = (1, 0.5), bold = True, background_color = '#8C00FF', background_normal = "")
         self.button.bind(on_press = self.callback)
         self.window.add_widget(self.button)
 
